@@ -1,27 +1,26 @@
-p {
-  font-size: 14px;
+$red: red;
+$blue: darkblue;
 
-  a {
-    color: chocolate;
-    text-decoration: none;
+a {
+  text-decoration: none;
+}
 
-    &:hover {
-      color: red;
-      text-decoration: underline;
-    }
+h1 {
+  color: $red;
+  font-size: 32px;
+
+  .world {
+    color: $blue;
   }
 }
 
-ul {
+.nav {
+  list-style: none;
   display: flex;
   flex-direction: row;
-  list-style: none;
-  margin: 0;
-  padding: 0;
 
   li {
     flex: 1 0 auto;
-    background-color: magenta;
-    border: 1px solid darkmagenta;
+    text-align: center;
   }
 }

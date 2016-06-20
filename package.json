@@ -4,19 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/http-server"
+    "start": "gulp serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiAdcock/gulp-example.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiAdcock/gulp-example/issues"
+  },
+  "homepage": "https://github.com/SiAdcock/gulp-example#readme",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
+    "browser-sync": "^2.13.0",
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.1.1",
-    "gulp-sass": "^2.3.1"
-  },
-  "dependencies": {
-    "http-server": "^0.9.0"
+    "gulp-sass": "^2.3.2"
   }
 }
